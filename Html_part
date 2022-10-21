@@ -1,0 +1,90 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/style3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+    <title>Layout with bootstrap</title>
+</head>
+<body>
+    <header class="header">
+
+ 
+        <nav class="hnav">
+            <a href="#" class="nav_anchor">Home</a>
+            <a href="" class="nav_anchor">Product</a>
+            <a href="#" class="nav_anchor">Company</a>
+            <a href="#" class="nav_anchor">Contact</a>
+            <a href="#"><img src="Images/fb1logo.png" alt="fblogo" id="flogo"></a>
+        </nav>
+        <div class="himage">
+            <h1>Header Image</h1>
+        </div>
+    </header>
+
+    <section class="contact_section">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>About</h2>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Company</h2>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Services</h2>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content_section">
+        <div class="rows">
+            <div class="cols wid1">
+                <h2>Content</h2>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                <h3>Sub Header</h3>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+          </div>
+            <h2>Navigation Bar</h2>
+            <ul class="cols wid2">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+       
+    </section>
+
+    <section class="gallary">
+        <h2>Gallery</h2>
+        <div class="row">
+            <div class="col-lg-3 bgcolor1 gcolor">
+                <h3>Gallary Image</h3>
+            </div>
+            <div class="col-lg-3 bgcolor2 gcolor">
+                <h3>Gallary Image</h3>
+            </div>
+            <div class="col-lg-3 bgcolor3 gcolor">
+                <h3>Gallary Image</h3>
+            </div>
+            <div class="col-lg-3 bgcolor4 gcolor">
+                <h3>Gallary Image</h3>
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+</body>
+</html>
